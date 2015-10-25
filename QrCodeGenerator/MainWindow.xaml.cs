@@ -80,6 +80,21 @@ namespace QrCodeGenerator
                 }
             }
         }
+
+        private void QRText_MouseEnter(object sender, MouseEventArgs e)
+        {
+            QRText.Foreground = System.Windows.Media.Brushes.LightBlue;
+        }
+
+        private void QRText_MouseLeave(object sender, MouseEventArgs e)
+        {
+            QRText.Foreground = System.Windows.Media.Brushes.White;
+        }
+
+        private void QRText_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Clipboard.SetText(QRText.Text);
+        }
             
     }
 }
