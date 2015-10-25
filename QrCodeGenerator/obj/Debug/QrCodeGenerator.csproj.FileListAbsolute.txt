@@ -16,3 +16,6 @@ C:\Users\Teemu\Documents\Visual Studio 2013\Projects\QrCodeGenerator\QrCodeGener
 C:\Users\Teemu\Documents\Visual Studio 2013\Projects\QrCodeGenerator\QrCodeGenerator\bin\Debug\zxing.dll
 C:\Users\Teemu\Documents\Visual Studio 2013\Projects\QrCodeGenerator\QrCodeGenerator\bin\Debug\zxing.pdb
 C:\Users\Teemu\Documents\Visual Studio 2013\Projects\QrCodeGenerator\QrCodeGenerator\bin\Debug\zxing.xml
+C:\Users\Teemu\Documents\GitHub\QrCodeGenerator\QrCodeGenerator\bin\Debug\QrCodeGenerator.exe.config
+C:\Users\Teemu\Documents\GitHub\QrCodeGenerator\QrCodeGenerator\obj\Debug\QrCodeGenerator.exe
+C:\Users\Teemu\Documents\GitHub\QrCodeGenerator\QrCodeGenerator\obj\Debug\QrCodeGenerator.pdb
