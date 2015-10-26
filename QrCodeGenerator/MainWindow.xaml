@@ -14,7 +14,8 @@
         <Button Grid.Row="0" Width="139" Content="Generate my link" FontSize="17"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Text_Button_Click" Background="White"/>
         <TextBox Grid.Row="1" Width="280" Height="20" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Center" Name="BoxText" KeyDown="BoxText_KeyDown"></TextBox>
         <Button Grid.Row="2" Width="156" FontSize="17" Content="Generate firefox link" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Firefox_Button_Click" Background="White"/>
-        <Image Grid.Row="3" Width="200" Height="200" x:Name="QR" VerticalAlignment="Top" HorizontalAlignment="Center" ></Image>
+        <Rectangle Grid.Row="3" Width="210" Height="210" VerticalAlignment="Top" HorizontalAlignment="Center" Fill="White"></Rectangle>
+        <Image Grid.Row="3" Width="200" Height="200" x:Name="QR" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0"></Image>
         <TextBlock Grid.Row="4" Width="320" Height="50" x:Name="QRText" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="White" MouseDown="QRText_MouseDown" MouseEnter="QRText_MouseEnter" MouseLeave="QRText_MouseLeave" ToolTip="Click to copy"></TextBlock>
 
     </Grid>
